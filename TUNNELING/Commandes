@@ -1,1 +1,26 @@
+Configuration du tunnel sur R1 sur l’interface fa2/0 
 
+interface Tunnel0 
+no ip address 
+ipv6 address 2001:DB8:12::1/64 
+tunnel source 2.2.2.1 
+tunnel destination 3.3.3.4 
+tunnel mode ipv6ip 
+tunnel path-mtu-discovery 
+ipv6 route 2001:DB8:1:4::/64 2001:DB8:12::2
+
+il faut reprendre cette serie de commande en l'adaptant à l'int fa1/0 sur R1
+
+Configuration du tunnel sur le routeur R4 sur l’interface fa1/0 
+interface Tunnel1 
+no ip address 
+ipv6 address 2001:DB8:13::2/64 
+tunnel source 4.4.4.4 
+tunnel destination 1.1.1.1 
+tunnel mode ipv6ip 
+tunnel path-mtu-discovery 
+ipv6 route 2001:DB8:1:1::/64 2001:DB8:13::1
+
+il faut reprendre cette serie de commande en l'adaptant à l'int fa2/0 sur R4
+
+Et configurer l'OSPF SUR L4ENSEMBLE DES 04 ROUTEURS 
