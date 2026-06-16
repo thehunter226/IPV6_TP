@@ -9,3 +9,7 @@ Les taches à faire
 5. IPv6 BGP
 6. IPv6 Tunneling (Manual)
 7. IPv6 Tunneling (Automatic)
+
+Les outils 
+GNS3 
+Vmware ou virtual box 
