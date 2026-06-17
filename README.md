@@ -1,4 +1,8 @@
 # IPV6_TP
+
+Objectif 
+Realiser une infra avec le protocole ipv6 tout en respectant les exigences necessaires pour un deploiment securisé
+
 TP REALISER AVEC LE PROTOCOLE IPV6
 
 Les taches à faire
