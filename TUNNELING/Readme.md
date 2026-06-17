@@ -1,3 +1,8 @@
+Objectif
+L'objectif d'un tunnel est de chiffrer la communication 
+IPV6 prevoit ce besoin de façon native 
+
+Taches
 Pour mettre en place un tunnel voici les taches à faire 
 Activez IPv6 sur les interfaces fa0/0 (confère image ) sur les routeurs R1 et R4 et attribuez-leur des adresses.
 Performez l’auto-configuration sur les PC1 et PC2 et identifiez les différentes adresses.
